@@ -1,4 +1,4 @@
-<?php namespace Maatwebsite\Excel;
+<?php namespace SchGroup\Excel;
 
 use PHPExcel_Settings;
 use PHPExcel_Shared_Font;
@@ -26,7 +26,7 @@ use Laravel\Lumen\Application as LumenApplication;
  * @author     Maatwebsite <info@maatwebsite.nl>
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  */
-class ExcelServiceProvider extends ServiceProvider {
+class SchExcelServiceProvider extends ServiceProvider {
 
     /**
      * Indicates if loading of the provider is deferred.
