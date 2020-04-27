@@ -59,7 +59,7 @@
   "extra": {
         "laravel": {
             "providers": [
-                "SchGroup\\Excel\\ExcelServiceProvider"
+                "SchGroup\\Excel\\SchExcelServiceProvider"
             ],
             "aliases": {
                 "Excel": "SchGroup\\Excel\\Facades\\Excel"
