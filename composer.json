@@ -45,7 +45,7 @@
   },
   "autoload": {
     "classmap": [
-      "src/Maatwebsite/Excel"
+      "src/SchGroup/Excel"
     ],
     "psr-0": {
       "Maatwebsite\\Excel\\": "src/"
@@ -59,10 +59,10 @@
   "extra": {
         "laravel": {
             "providers": [
-                "Maatwebsite\\Excel\\ExcelServiceProvider"
+                "SchGroup\\Excel\\ExcelServiceProvider"
             ],
             "aliases": {
-                "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+                "Excel": "SchGroup\\Excel\\Facades\\Excel"
             }
         }
     }
